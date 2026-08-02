@@ -21,7 +21,7 @@ jobs:
       env:
         STORE_EMAIL: ${{ secrets.STORE_EMAIL }}
         STORE_PASSWORD: ${{ secrets.STORE_PASSWORD }}
-        BASE_URL: https://masterstoreiq.com/
+        BASE_URL: https://staging.masterstoreiq.com/
       run: npx playwright test
     - uses: actions/upload-artifact@v4
       if: ${{ !cancelled() }}

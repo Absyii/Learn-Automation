@@ -13,7 +13,7 @@ class ComparePage {
     }
 
     async navToHome (){
-     await this.page.goto('https://masterstoreiq.com/');
+     await this.page.goto(process.env.BASE_URL);
     }
 
     async clickCompareBtn (){

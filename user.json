@@ -1,0 +1,101 @@
+{
+  "cookies": [
+    {
+      "name": "cee",
+      "value": "LIgYhTXgFs%2F12gG%2BBmHkUT6MlUFP5zJUrR%2BH1cYpJUE%3D.%7B%7D",
+      "domain": ".capig.stape.do",
+      "path": "/events/4cbb51f6618f83ff5f70fd73e0247adcceb532b8c6744466bea32d69eae8c06a",
+      "expires": 1789560333.41049,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_ga",
+      "value": "GA1.1.1045730028.1781784330",
+      "domain": ".masterstoreiq.com",
+      "path": "/",
+      "expires": 1816455275.450942,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_fbp",
+      "value": "fb.1.1781784333103.607049682670083275",
+      "domain": ".masterstoreiq.com",
+      "path": "/",
+      "expires": 1789671294,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "twk_idm_key",
+      "value": "5gmlbSHr1SxNiXg35PvaD",
+      "domain": "staging.masterstoreiq.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "TawkConnectionTime",
+      "value": "0",
+      "domain": "staging.masterstoreiq.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "twk_uuid_6357aba0b0d6371309cb631b",
+      "value": "%7B%22uuid%22%3A%221.92RRqrxls1nFdSPGVRdw77eB6vrAHluEibmfYGD5mHAt58A1LiDlSaqinbyoOwiAaIZsllWA08BLDffvBRbACsKayAmR4ZwtyEG47Jut2ClGaKScP8XfSQ92Apu2%22%2C%22version%22%3A3%2C%22domain%22%3A%22masterstoreiq.com%22%2C%22ts%22%3A1781895292974%7D",
+      "domain": ".masterstoreiq.com",
+      "path": "/",
+      "expires": 1797447292,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga_XHVE3GD1MW",
+      "value": "GS2.1.s1781894974$o3$g1$t1781895293$j42$l0$h0",
+      "domain": ".masterstoreiq.com",
+      "path": "/",
+      "expires": 1816455293.057078,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://staging.masterstoreiq.com",
+      "localStorage": [
+        {
+          "name": "AppLang",
+          "value": "en"
+        },
+        {
+          "name": "lastExternalReferrer",
+          "value": "empty"
+        },
+        {
+          "name": "twk_6357aba0b0d6371309cb631b",
+          "value": "vsb83.tawk.to"
+        },
+        {
+          "name": "lastExternalReferrerTime",
+          "value": "1781895278145"
+        },
+        {
+          "name": "twk_token_6357aba0b0d6371309cb631b",
+          "value": "eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6InZpc2l0b3ItYXBwbGljYXRpb24tc2VydmVyLTIwMjEwMjIifQ.eyJwaWQiOiI2MzU3YWJhMGIwZDYzNzEzMDljYjYzMWIiLCJ2aWQiOiI2MzU3YWJhMGIwZDYzNzEzMDljYjYzMWItOWJPQXZVUmxYNndKbzExeTdLMUFWIiwic2lkIjoiNmEzNTkwNzgxNTg3YWI2YmY4MzBhMzU5IiwiaWF0IjoxNzgxODk1Mjg4LCJleHAiOjE3ODE4OTcwODgsImp0aSI6IjJpX1VTeDBCQ2J6V3dhYks1aWNtRSJ9.NbQzzIb8YBnNPWaDikJaYtLjtm95rnOU621mQsvwp0RPyJNe03tdQXme0Kdp6eBupuIPgHfhm6AlDDTXJEOfPQ"
+        }
+      ]
+    }
+  ]
+}

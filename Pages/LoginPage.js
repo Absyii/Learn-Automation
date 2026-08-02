@@ -14,7 +14,7 @@ class LoginPage {
 
  
   async navigateToHome() {
-    await this.page.goto('https://masterstoreiq.com/');
+    await this.page.goto(process.env.BASE_URL);
   }
 
   
@@ -27,6 +27,10 @@ class LoginPage {
     await this.emailInput.fill(email);
     await this.passwordInput.fill(password);
     await this.loginButton.click();
+  }
+
+  async saveUserLogin () {
+  await this.page.context().storageState({ path: 'user.json' });
   }
 }
 
