@@ -1,10 +1,9 @@
 require('dotenv').config(); 
 const { test, expect } = require('@playwright/test');
-const { LoginPage } = require('./LoginPage');
-const { ComparePage } = require('./ComparePage');
-const { ProductPage } = require('./ProductPage');
-const { CartPage } = require('./CartPage');
-const { CheckoutPage } = require('./CheckoutPage');
+const { LoginPage } = require('../Pages/LoginPage');
+const { ComparePage } = require('../Pages/ComparePage');
+const { ProductPage } = require('../Pages/ProductPage');
+const { CartPage } = require('../Pages/CartPage');
 
 test('Login test with POM', async ({ page }) => {
 
