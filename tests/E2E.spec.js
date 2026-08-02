@@ -13,7 +13,6 @@ test.beforeEach(async({ page }) => {
   await page.goto('/')
 })
 
-test.use({ storageState: 'user.json' });
 
 test('E2E Flow Order' , async({ page }) => {
   test.setTimeout(60000);
